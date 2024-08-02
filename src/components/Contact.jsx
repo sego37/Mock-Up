@@ -32,7 +32,7 @@ function Contact() {
 
   return (
     <>
-      <div class="flex items-center justify-center p-12">
+      <div class="flex items-center justify-center p-12 bg-green-300">
         <div class="mx-auto w-full max-w-[550px]">
           <form action="https://formbold.com/s/FORM_ID" method="POST">
             <div class="-mx-3 flex flex-wrap">
@@ -143,7 +143,7 @@ function Contact() {
               //prevent default
               // onClick={alert("Thank you for your message")}
               href="/"
-              class="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none">
+              class="hover:bg-gray-600 rounded-md  bg-blue-600 py-3 px-8 text-center text-base font-semibold text-white outline-none">
                 Submit
               
               </button>

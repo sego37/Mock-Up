@@ -6,8 +6,8 @@ function Resume () {
             width="100%"
             height="900px">
         </object>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum accusamus, amet incidunt necessitatibus corrupti sunt, ut vitae officia, eligendi placeat quos saepe veritatis voluptatibus mollitia voluptates laudantium vel ab dolores!
+        <p class="text-center m-7">
+            My Resume covers a variety of topics including: Personal and professional development, leadership, and project management. Peronsal achievements reached through my life, work experience and education.
         </p>
         </>
     )
