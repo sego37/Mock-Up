@@ -38,8 +38,8 @@ function Portfolio() {
     {
       id: "card-6",
       name: "Logo Creator",
-
-      description: "Logo Creator: This is a logo creator that allows you to create a logo by using a series of prompts. GitHub link: https://github.com/sego37/Logo-Creator",      imgUrl: "https://private-user-images.githubusercontent.com/63138641/329412805-bdef54d6-813a-4029-bbb0-82279ae80be1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjI0NTgyNDcsIm5iZiI6MTcyMjQ1Nzk0NywicGF0aCI6Ii82MzEzODY0MS8zMjk0MTI4MDUtYmRlZjU0ZDYtODEzYS00MDI5LWJiYjAtODIyNzlhZTgwYmUxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzMxVDIwMzIyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJjNjU4NmQ1NGNmYTRkZTMwNDA3YzI0NGExYmUxMjE4MzgzNWY3YzQyYmFhZjc1YjYzNjc1ZmNlZmQ0MDY1ODUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.M771TssxAoH1Eeok5T576UjDcN3_Ok_WShzr8n-aH9o",
+      description: "Logo Creator: This is a logo creator that allows you to create a logo by using a series of prompts. GitHub link: https://github.com/sego37/Logo-Creator",      
+      imgUrl: "https://private-user-images.githubusercontent.com/63138641/329412805-bdef54d6-813a-4029-bbb0-82279ae80be1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjI0NTgyNDcsIm5iZiI6MTcyMjQ1Nzk0NywicGF0aCI6Ii82MzEzODY0MS8zMjk0MTI4MDUtYmRlZjU0ZDYtODEzYS00MDI5LWJiYjAtODIyNzlhZTgwYmUxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzMxVDIwMzIyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJjNjU4NmQ1NGNmYTRkZTMwNDA3YzI0NGExYmUxMjE4MzgzNWY3YzQyYmFhZjc1YjYzNjc1ZmNlZmQ0MDY1ODUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.M771TssxAoH1Eeok5T576UjDcN3_Ok_WShzr8n-aH9o",
     },
   ];
 
