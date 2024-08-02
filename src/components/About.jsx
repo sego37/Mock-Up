@@ -2,10 +2,10 @@ function About() {
   return (
     <>
       <section>
-        <div class="bg-gray-100 sm:grid grid-cols-5 grid-rows-2 px-4 py-6  space-y-6 sm:space-y-0 sm:gap-4">
-         <img src="?" alt="profile pic" />
-         <p>
-          lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+        <div class="bg-green-200 sm:grid grid-cols-3 px-4 py-6  space-y-6 sm:space-y-0 sm:gap-4">
+         <img class= "m-4" src="https://github.com/sego37/First-Profile/blob/main/assests/images/profile.JPG?raw=true" alt="profile pic" />
+         <p class="container text-xl m-4 bg-gray-300 p-9">
+          Hi! My name is Derek Sego (See-Go). I'm a Full Stack Web Developer with a background in psychology. I have spent the last 20 years helping my family build a successful business in the childcare industry. I have done everything from maintenance to managing 40 employees and dealing with everthing that is envolved with clients and emplyees. I'm looking for a new position in the tech industry. I'm looking for a position where I can use my skills to help build a positive impact on the world.
          </p>
         </div>
       </section>

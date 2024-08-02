@@ -7,39 +7,39 @@ function Portfolio() {
   const cards = [
     {
       id: "card-1",
-      name: "Card 1",
+      name: "First Profile",
       description: "Lorem asd asd asda sda asd asdasdasdasdasd asdas dasdas dasd asdas as 1",
-      imgUrl: "https://placehold.co/600x400",
+      imgUrl: "https://private-user-images.githubusercontent.com/63138641/312984382-afbc2f50-ca66-49ee-9fdf-ba5b0aab5f30.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjI0NTc5MzksIm5iZiI6MTcyMjQ1NzYzOSwicGF0aCI6Ii82MzEzODY0MS8zMTI5ODQzODItYWZiYzJmNTAtY2E2Ni00OWVlLTlmZGYtYmE1YjBhYWI1ZjMwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzMxVDIwMjcxOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY4MjQ3NDdmM2E4MTY1MjI3ZGQ3OGEzZGMwMDVjY2E1NGFhN2QxNWI0Y2Y5MTE1MmFhY2M3NzdhNGM4NDU3Y2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.dAWeBBNGN9jVLLvoDqrDnU2_WaWGSwGSyrq5BPrwRrg",
     },
     {
       id: "card-2",
-      name: "Card 2",
+      name: "Weather Dashboard",
       description: "Lorem 2",
-      imgUrl: "https://placehold.co/300x500",
+      imgUrl: "https://private-user-images.githubusercontent.com/63138641/321851933-9b0b2536-765f-4082-a392-c5ccd17c1051.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjI0NTgxMDUsIm5iZiI6MTcyMjQ1NzgwNSwicGF0aCI6Ii82MzEzODY0MS8zMjE4NTE5MzMtOWIwYjI1MzYtNzY1Zi00MDgyLWEzOTItYzVjY2QxN2MxMDUxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzMxVDIwMzAwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZlNWQ2OTlhZTUxZjQ5MDE1ZTcxOTM1Y2VjMWE2OTcxYjdhOWRkZjM1MmFiZDFmODhiMWQ4NzUzZGZhZmFiMjMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.8KVnpaDKTq0-qN9uwu5V6G2d2a6JmgXyTpXVtYjL78w",
     },
     {
       id: "card-3",
-      name: "Card 3",
+      name: "Task Manager",
       description: "Lorem 3",
-      imgUrl: "https://placehold.co/500x300",
+      imgUrl: "https://private-user-images.githubusercontent.com/63138641/320221698-b25aff9d-6e08-46a4-a446-8d55e94bbe90.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjI0NTgxNTAsIm5iZiI6MTcyMjQ1Nzg1MCwicGF0aCI6Ii82MzEzODY0MS8zMjAyMjE2OTgtYjI1YWZmOWQtNmUwOC00NmE0LWE0NDYtOGQ1NWU5NGJiZTkwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzMxVDIwMzA1MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVhZWIwYWE0YTJlZTUyZDAwYWIyNGM4MWJhNjA5NGQ0MjdlYWQyNmRjMzk3YTYwZDZjYWQ4NmY4ZGUxMzYwZmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.Zfro_QX_kiAvwd4kWBbqhJLWiSwvdj6ISOQ7Nz_j0To",
     },
     {
       id: "card-4",
-      name: "Card 4",
+      name: "Blog Central",
       description: "Lorem 4",
-      imgUrl: "https://placehold.co/600x400",
+      imgUrl: "https://private-user-images.githubusercontent.com/63138641/317914700-4472ed51-9c06-413d-8a6e-e7dcba861280.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjI0NTgxNzMsIm5iZiI6MTcyMjQ1Nzg3MywicGF0aCI6Ii82MzEzODY0MS8zMTc5MTQ3MDAtNDQ3MmVkNTEtOWMwNi00MTNkLThhNmUtZTdkY2JhODYxMjgwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzMxVDIwMzExM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMzNWVlODcyZDdmNjBjMjNiNzM1NDllNzc5MGE5YzhkY2JmYzM0MzYyMzk1M2ViODBiYjFiYTJjZjk5ZTZhZTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.93lQqkIUtjudIQNlo-sj7LcZaaGX9AhLCObhKgjcVbI",
     },
     {
       id: "card-5",
-      name: "Card 5",
+      name: "Employee Managment",
       description: "Lorem 5",
-      imgUrl: "https://placehold.co/300x500",
+      imgUrl: "https://private-user-images.githubusercontent.com/63138641/315776943-762b8287-1d90-47f7-ac2d-c3baa794eec3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjI0NTgyMDUsIm5iZiI6MTcyMjQ1NzkwNSwicGF0aCI6Ii82MzEzODY0MS8zMTU3NzY5NDMtNzYyYjgyODctMWQ5MC00N2Y3LWFjMmQtYzNiYWE3OTRlZWMzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzMxVDIwMzE0NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRmOTlmYzI3NmI4ODM1Yjc2YjFmOTIyNmYzZjE2N2UwNGMwMWIxYmQxMzVkYzgzY2Y2MzRjZjE5YjIyZjgwY2MmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.m0Fe9p9H1hHYYVUUS07p1jh3dYyjmK5Fdw8AW9mEpjA",
     },
     {
       id: "card-6",
-      name: "Card 6",
+      name: "Logo Creator",
       description: "Lorem 6",
-      imgUrl: "https://placehold.co/500x300",
+      imgUrl: "https://private-user-images.githubusercontent.com/63138641/329412805-bdef54d6-813a-4029-bbb0-82279ae80be1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjI0NTgyNDcsIm5iZiI6MTcyMjQ1Nzk0NywicGF0aCI6Ii82MzEzODY0MS8zMjk0MTI4MDUtYmRlZjU0ZDYtODEzYS00MDI5LWJiYjAtODIyNzlhZTgwYmUxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzMxVDIwMzIyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJjNjU4NmQ1NGNmYTRkZTMwNDA3YzI0NGExYmUxMjE4MzgzNWY3YzQyYmFhZjc1YjYzNjc1ZmNlZmQ0MDY1ODUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.M771TssxAoH1Eeok5T576UjDcN3_Ok_WShzr8n-aH9o",
     },
   ];
 

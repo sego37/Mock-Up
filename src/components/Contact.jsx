@@ -7,6 +7,27 @@ function Contact() {
             document.getElementById("fname-caption").classList.add("hidden");
         }
     }
+    function onLastNameBlur(event) {
+        if (event.target.value === "") {
+            document.getElementById("lname-caption").classList.remove("hidden");
+        } else {
+            document.getElementById("lname-caption").classList.add("hidden");
+        }
+    }
+    function onEmailBlur(event) {
+        if (event.target.value === "") {
+            document.getElementById("email-caption").classList.remove("hidden");
+        } else {
+            document.getElementById("email-caption").classList.add("hidden");
+        }
+    }
+    function onMessageBlur(event) {
+        if (event.target.value === "") {
+            document.getElementById("message-caption").classList.remove("hidden");
+        } else {
+            document.getElementById("message-caption").classList.add("hidden");
+        }
+    }
 
 
   return (
@@ -53,6 +74,7 @@ function Contact() {
                     id="lName"
                     placeholder="Last Name"
                     class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                    onBlur={onLastNameBlur}
                   />
                   <caption
                     id="lname-caption"
@@ -78,6 +100,7 @@ function Contact() {
                 placeholder="youremail@mail.com"
                 min="0"
                 class="w-full appearance-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                onBlur={onEmailBlur}
               />
               <caption
                 id="email-caption"
@@ -103,6 +126,7 @@ function Contact() {
                     width="100%"
                     rows={5}
                     class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                    onBlur={onMessageBlur}
                   />
                   <caption
                     id="message-caption"
@@ -115,8 +139,13 @@ function Contact() {
             </div>
 
             <div>
-              <button class="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none">
+              <button
+              //prevent default
+              // onClick={alert("Thank you for your message")}
+              href="/"
+              class="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-center text-base font-semibold text-white outline-none">
                 Submit
+              
               </button>
             </div>
           </form>

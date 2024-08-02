@@ -7,7 +7,7 @@ function Header(){
           <div class="flex justify-between items-center py-6 px-10 container mx-auto">
             <div>
               <h1 class="text-2xl font-bold bg-gradient-to-tr from-indigo-600 to-green-600 bg-clip-text text-transparent hover:cursor-pointer">
-                Adsla
+                Derek Sego
               </h1>
             </div>
 
